@@ -106,11 +106,11 @@ conda install \
 -c conda-forge \
 -y \
 -q \
-dask-yarn>=0.7.0 \
+dask-yarn \
 pyarrow \
 s3fs \
 conda-pack \
-tornado=5 \
+tornado \
 $EXTRA_CONDA_PACKAGES
 
 
